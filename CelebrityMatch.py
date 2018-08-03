@@ -71,7 +71,7 @@ compared_results = compare(user,celebrity)
 sorted_result = sorted(compared_results.items(), key=operator.itemgetter(1))
 
 for keys, value in sorted_result[:5]:
-    print keys,
+    print (keys),
     print(user[keys]),
     print ('->'),
     print (celebrity[keys]),
